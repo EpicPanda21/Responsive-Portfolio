@@ -217,23 +217,24 @@ input[type=submit] {
 }
 
 
-
-
-
-
 @media only screen and (max-width: 980px) {
-  body {
-    
-      background: #4aaaa5;    
-
+  header #logo {
+    width: 100%;
+      background: #584e92;    
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    background: red;    
+  header #logo {
+    width: 100%;
+    background: rgb(177, 88, 88);    
+  }
 }
 
 @media only screen and (max-width: 640px) {
-  body {
-    background: yellow;  
-}
+  header #logo  {
+    width: 100%;
+    background: rgb(59, 177, 94); 
+  }
+
+  }
